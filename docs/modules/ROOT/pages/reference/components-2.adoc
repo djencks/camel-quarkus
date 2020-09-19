@@ -1,0 +1,13 @@
+= Camel components supported on Quarkus
+
+There are indexCount:[relative=reference/components/\*.adoc] components (indexCount:[relative=reference/components/\*.adoc,attributes='cq-deprecated=true'] deprecated, indexCount:[relative=reference/components/\*.adoc,attributes='cq-native-supported=false'] JVM only)
+
+[.counted-table,width="100%",cols="4,1,1,1,1,5",options="header"]
+|===
+| Component | Artifact | JVM +
+since | Native +
+since | Support +
+level | Description
+|===
+
+indexTable::[relative='reference/components/*.adoc',cells="=`xref:reference/extensions/$\{cqArtifactIdBase}.adoc[$\{cqCamelPartTitle}]`,cq-artifact-id,cq-jvm-since,cq-native-since,cq-status,cq-camel-part-description"]

@@ -1,6 +1,7 @@
 = Camel components supported on Quarkus
+:rel-filter: *-component.adoc
 
-There are indexCount:[relative=reference/components/\*.adoc] components (indexCount:[relative=reference/components/\*.adoc,attributes='cq-deprecated=true'] deprecated, indexCount:[relative=reference/components/\*.adoc,attributes='cq-native-supported=false'] JVM only)
+There are indexCount:[version=latest,component=components,module=ROOT,relative="{rel-filter}",attributes=cq-artifact-id] components (indexCount:[version=latest,component=components,module=ROOT,relative="{rel-filter}",attributes='cq-artifact-id,cq-deprecated=true'] deprecated, indexCount:[version=latest,component=components,module=ROOT,relative="{rel-filter}",attributes='cq-artifact-id,cq-native-supported=false'] JVM only)
 
 [.counted-table,width="100%",cols="4,1,1,1,1,5",options="header"]
 |===
@@ -10,4 +11,4 @@ since | Support +
 level | Description
 |===
 
-indexTable::[relative='reference/components/*.adoc',cells="=`xref:reference/extensions/$\{cqArtifactIdBase}.adoc[$\{cqCamelPartTitle}]`,cq-artifact-id,cq-jvm-since,cq-native-since,cq-status,cq-camel-part-description"]
+indexTable::[version=latest,component=components,module=ROOT,relative="{rel-filter}",attributes=cq-artifact-id,cells="=`xref:reference/extensions/$\{cqArtifactIdBase}.adoc[$\{cqCamelPartTitle}]`,cq-artifact-id,cq-jvm-since,cq-native-since,cq-status,cq-camel-part-description"]

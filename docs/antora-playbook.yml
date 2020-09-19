@@ -24,6 +24,9 @@ content:
   - url: ./../
     branches: HEAD
     start_path: docs
+  - url: ./../../camel
+    branches: HEAD
+    start_path: docs/components
 
 asciidoc:
   extensions:
